@@ -1,0 +1,1468 @@
+# Copyright (C) 2014 Tung Do
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Murmur 0.2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2014-06-17 16:03:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.8\n"
+
+#: 404.php:38
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:43
+msgid ""
+"You tried going to %1$s, and it doesn't exist. All is not lost! You can "
+"search for what you're looking for."
+msgstr ""
+
+#: archive-project.php:67
+msgid "Apologies, but no projects were found."
+msgstr ""
+
+#: archive-team.php:72
+msgid "Apologies, but no members were found."
+msgstr ""
+
+#: archive.php:70 index.php:90 search.php:70
+msgid "No Entries"
+msgstr ""
+
+#: archive.php:73 index.php:93 search.php:73
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: attachment.php:60
+msgid "Download \"%s\";"
+msgstr ""
+
+#: attachment.php:65 page.php:46 post.php:48 project.php:54 singular.php:48
+#: team.php:46
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:66 page.php:47 post.php:49 project.php:55 singular.php:49
+#: team.php:47
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:71
+msgid "Gallery"
+msgstr ""
+
+#: comment.php:37
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:19
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:34
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:34
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:34
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: comments.php:56
+msgid ""
+"Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this "
+"post\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:69 library/functions/comments.php:205
+msgid "Post Comment"
+msgstr ""
+
+#: functions/admin.php:42
+msgid "General"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Portfolio Showcase"
+msgstr ""
+
+#: functions/admin.php:71
+msgid "Logo:"
+msgstr ""
+
+#: functions/admin.php:76
+msgid ""
+"Upload image for logo. Once uploaded, click the Insert Into Post button. If "
+"that does not work, copy the address of the image and paste it in the input "
+"field above. Next, click on Save Settings button at the bottom of this "
+"page. The image will automatically display here after settings are saved."
+msgstr ""
+
+#: functions/admin.php:87
+msgid "Site Description Toggle:"
+msgstr ""
+
+#: functions/admin.php:90
+msgid "Check this box to hide site description"
+msgstr ""
+
+#: functions/admin.php:97
+msgid "Extended Site Description:"
+msgstr ""
+
+#: functions/admin.php:101
+msgid ""
+"Write a sentence or two about your company or services. This extended site "
+"description will be displayed directly below the header, before the main "
+"content."
+msgstr ""
+
+#: functions/admin.php:115
+msgid "The following settings are for the Portfolio Showcase template."
+msgstr ""
+
+#: functions/admin.php:124
+msgid "Number of Slides:"
+msgstr ""
+
+#: functions/admin.php:128
+msgid ""
+"Enter a number for the amount of slides you want to feature on the Portolio "
+"Showcase template. The slider works only if the DP Portfolio plugin is "
+"installed and several project entries exists."
+msgstr ""
+
+#: functions/admin.php:147
+msgid ""
+"After the slider of Portfolio Showcase template, enter information for the "
+"first featured area, typically used to introduce one of your available "
+"services."
+msgstr ""
+
+#: functions/admin.php:164
+msgid "Enter information for the second featured area."
+msgstr ""
+
+#: functions/admin.php:181
+msgid "Enter information for the third featured area."
+msgstr ""
+
+#: functions.php:370
+msgid "A 4-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: functions.php:380
+msgid "A 5-column widget area loaded before the footer of the site."
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:37
+msgid "SEO"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:70
+msgid "Document Title:"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:76
+msgid "Meta Description:"
+msgstr ""
+
+#: library/admin/meta-box-post-seo.php:82
+msgid "Meta Keywords:"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:36
+msgid "Template"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:87
+msgid "No templates exist for this post type."
+msgstr ""
+
+#: library/admin/meta-box-theme-about.php:31
+#: library/admin/meta-box-theme-about.php:36
+msgid "About %s"
+msgstr ""
+
+#: library/admin/meta-box-theme-about.php:61
+msgid "Theme:"
+msgstr ""
+
+#: library/admin/meta-box-theme-about.php:69
+msgid "Version:"
+msgstr ""
+
+#: library/admin/meta-box-theme-about.php:77
+msgid "Author:"
+msgstr ""
+
+#: library/admin/meta-box-theme-about.php:85
+msgid "Description:"
+msgstr ""
+
+#: library/admin/meta-box-theme-footer.php:29
+msgid "Footer settings"
+msgstr ""
+
+#: library/admin/meta-box-theme-footer.php:52
+msgid ""
+"You can add custom <acronym title=\"Hypertext Markup "
+"Language\">HTML</acronym> and/or shortcodes, which will be automatically "
+"inserted into your theme."
+msgstr ""
+
+#: library/admin/theme-settings.php:47 library/admin/theme-settings.php:171
+msgid "%s Theme Settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:48
+msgid "Theme Settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:172
+msgid "Customize"
+msgstr ""
+
+#: library/admin/theme-settings.php:198
+msgid "Update Settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:255
+msgid "Documentation"
+msgstr ""
+
+#: library/admin/theme-settings.php:259
+msgid "Support"
+msgstr ""
+
+#: library/classes/widget-archives.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"archives."
+msgstr ""
+
+#: library/classes/widget-archives.php:44
+#: library/classes/widget-archives.php:141 library/functions/context.php:446
+msgid "Archives"
+msgstr ""
+
+#: library/classes/widget-archives.php:79
+msgid "Select Year"
+msgstr ""
+
+#: library/classes/widget-archives.php:82
+msgid "Select Month"
+msgstr ""
+
+#: library/classes/widget-archives.php:85
+msgid "Select Week"
+msgstr ""
+
+#: library/classes/widget-archives.php:88
+msgid "Select Day"
+msgstr ""
+
+#: library/classes/widget-archives.php:91
+msgid "Select Post"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Alphabetical"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Daily"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Monthly"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Post By Post"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Weekly"
+msgstr ""
+
+#: library/classes/widget-archives.php:154
+msgid "Yearly"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+msgid "Custom"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+msgid "HTML"
+msgstr ""
+
+#: library/classes/widget-archives.php:157
+msgid "Option"
+msgstr ""
+
+#: library/classes/widget-archives.php:162
+#: library/classes/widget-authors.php:143
+#: library/classes/widget-bookmarks.php:187
+#: library/classes/widget-calendar.php:108
+#: library/classes/widget-categories.php:170
+#: library/classes/widget-nav-menu.php:133 library/classes/widget-pages.php:157
+#: library/classes/widget-search.php:143 library/classes/widget-tags.php:181
+msgid "Title:"
+msgstr ""
+
+#: library/classes/widget-archives.php:198
+#: library/classes/widget-authors.php:191
+msgid "Show post count?"
+msgstr ""
+
+#: library/classes/widget-authors.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"author lists."
+msgstr ""
+
+#: library/classes/widget-authors.php:44 library/classes/widget-authors.php:119
+msgid "Authors"
+msgstr ""
+
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148 library/classes/widget-tags.php:173
+msgid "Ascending"
+msgstr ""
+
+#: library/classes/widget-authors.php:136
+#: library/classes/widget-bookmarks.php:178
+#: library/classes/widget-bookmarks.php:180
+#: library/classes/widget-categories.php:162
+#: library/classes/widget-pages.php:148 library/classes/widget-tags.php:173
+msgid "Descending"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+msgid "Display Name"
+msgstr ""
+
+#: library/classes/widget-authors.php:137 library/functions/comments.php:188
+msgid "Email"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149
+msgid "ID"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+msgid "Nice Name"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+msgid "Post Count"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+msgid "Registered"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+#: library/classes/widget-bookmarks.php:181
+#: plugins/dp-portfolio/dp-portfolio.php:249
+msgid "URL"
+msgstr ""
+
+#: library/classes/widget-authors.php:137
+msgid "Login"
+msgstr ""
+
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+#: library/classes/widget-tags.php:172
+msgid "List"
+msgstr ""
+
+#: library/classes/widget-authors.php:169
+#: library/classes/widget-categories.php:161
+msgid "None"
+msgstr ""
+
+#: library/classes/widget-authors.php:187
+msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+msgstr ""
+
+#: library/classes/widget-authors.php:195
+msgid "Exclude admin?"
+msgstr ""
+
+#: library/classes/widget-authors.php:199
+msgid "Show full name?"
+msgstr ""
+
+#: library/classes/widget-authors.php:203
+#: library/classes/widget-categories.php:273
+#: library/classes/widget-tags.php:292
+msgid "Hide empty?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"bookmarks (links)."
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:44
+#: library/classes/widget-bookmarks.php:85
+#: library/classes/widget-bookmarks.php:148
+msgid "Bookmarks"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:174
+msgid "Count"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-tags.php:174 library/functions/comments.php:187
+msgid "Name"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:179
+#: library/classes/widget-categories.php:163
+#: library/classes/widget-pages.php:149
+msgid "Slug"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Description"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Length"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Notes"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Owner"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181 library/classes/widget-tags.php:173
+msgid "Random"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Rating"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Rel"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+#: library/classes/widget-categories.php:164
+msgid "RSS"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Target"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:181
+msgid "Updated"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:289
+msgid "Categorize?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:293
+msgid "Show description?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:297
+msgid "Hide invisible?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:301
+msgid "Show rating?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:305
+msgid "Show updated?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:309
+msgid "Show images?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:313
+msgid "Show name?"
+msgstr ""
+
+#: library/classes/widget-bookmarks.php:317
+msgid "Show private?"
+msgstr ""
+
+#: library/classes/widget-calendar.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"calendar."
+msgstr ""
+
+#: library/classes/widget-calendar.php:44
+#: library/classes/widget-calendar.php:99
+msgid "Calendar"
+msgstr ""
+
+#: library/classes/widget-calendar.php:113
+msgid "One-letter abbreviation?"
+msgstr ""
+
+#: library/classes/widget-categories.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"category links."
+msgstr ""
+
+#: library/classes/widget-categories.php:44
+#: library/classes/widget-categories.php:133
+msgid "Categories"
+msgstr ""
+
+#: library/classes/widget-categories.php:163
+msgid "Term Group"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+msgid "Atom"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+msgid "RDF"
+msgstr ""
+
+#: library/classes/widget-categories.php:164
+msgid "RSS 2.0"
+msgstr ""
+
+#: library/classes/widget-categories.php:261
+#: library/classes/widget-pages.php:256
+msgid "Hierarchical?"
+msgstr ""
+
+#: library/classes/widget-categories.php:265
+msgid "Use description?"
+msgstr ""
+
+#: library/classes/widget-categories.php:269
+msgid "Show count?"
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"menus."
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:44
+msgid "Navigation Menu"
+msgstr ""
+
+#: library/classes/widget-nav-menu.php:109
+msgid "Navigation"
+msgstr ""
+
+#: library/classes/widget-pages.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"page links."
+msgstr ""
+
+#: library/classes/widget-pages.php:44 library/classes/widget-pages.php:123
+msgid "Pages"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+msgid "Author"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+msgid "Date"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+msgid "Menu Order"
+msgstr ""
+
+#: library/classes/widget-pages.php:149 library/classes/widget-pages.php:150
+msgid "Modified"
+msgstr ""
+
+#: library/classes/widget-pages.php:149
+msgid "Title"
+msgstr ""
+
+#: library/classes/widget-pages.php:150
+msgid "Created"
+msgstr ""
+
+#: library/classes/widget-search.php:33
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"search form."
+msgstr ""
+
+#: library/classes/widget-search.php:45 library/classes/widget-search.php:131
+#: searchform.php:20
+msgid "Search"
+msgstr ""
+
+#: library/classes/widget-search.php:147
+msgid "Search Label:"
+msgstr ""
+
+#: library/classes/widget-search.php:151
+msgid "Search Text:"
+msgstr ""
+
+#: library/classes/widget-search.php:158
+msgid "Search Submit:"
+msgstr ""
+
+#: library/classes/widget-search.php:163
+msgid "Use theme's <code>searchform.php</code>?"
+msgstr ""
+
+#: library/classes/widget-tags.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"tags."
+msgstr ""
+
+#: library/classes/widget-tags.php:44 library/classes/widget-tags.php:143
+msgid "Tags"
+msgstr ""
+
+#: library/classes/widget-tags.php:171
+msgid "View"
+msgstr ""
+
+#: library/classes/widget-tags.php:171
+#: library/extensions/breadcrumb-trail.php:389
+#: library/extensions/breadcrumb-trail.php:422
+#: library/extensions/breadcrumb-trail.php:437
+#: library/extensions/breadcrumb-trail.php:465
+#: library/functions/shortcodes.php:204 library/functions/shortcodes.php:443
+#: plugins/dp-portfolio/dp-portfolio.php:100 plugins/dp-team/dp-team.php:94
+msgid "Edit"
+msgstr ""
+
+#: library/classes/widget-tags.php:172
+msgid "Flat"
+msgstr ""
+
+#: library/classes/widget-tags.php:288
+msgid "Pad counts?"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:44
+msgid "Browse:"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:47
+msgid "Home"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:301
+#: library/functions/context.php:423
+msgid "g:i a"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:304
+msgid "Minute %1$s"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:304
+#: library/functions/context.php:426
+msgid "i"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:307
+#: library/functions/context.php:429
+msgid "g a"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:318
+#: library/extensions/breadcrumb-trail.php:324
+#: library/extensions/breadcrumb-trail.php:329
+#: library/extensions/breadcrumb-trail.php:334
+#: library/extensions/breadcrumb-trail.php:521
+#: library/functions/context.php:435 library/functions/context.php:441
+#: library/functions/core-seo.php:90 library/functions/shortcodes.php:70
+msgid "Y"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:319
+#: library/extensions/breadcrumb-trail.php:330
+#: library/extensions/breadcrumb-trail.php:525
+msgid "F"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:320
+#: library/extensions/breadcrumb-trail.php:529
+msgid "d"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:325
+msgid "Week %1$s"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:325
+#: library/functions/context.php:435
+msgid "W"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:341
+#: library/functions/context.php:452
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:345
+#: library/functions/context.php:456
+msgid "404 Not Found"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:414
+msgid "Split"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:418
+msgid "Merge"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:525
+#: library/functions/core-seo.php:86
+msgid "F Y"
+msgstr ""
+
+#: library/extensions/breadcrumb-trail.php:529
+msgid "F j, Y"
+msgstr ""
+
+#: library/extensions/custom-field-series.php:86
+msgid "Articles in this series"
+msgstr ""
+
+#: library/extensions/custom-field-series.php:212
+msgid "Series"
+msgstr ""
+
+#: library/extensions/post-stylesheets.php:255
+msgid "Stylesheet"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:295
+msgid "Default"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:296
+msgid "One Column"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:297
+msgid "Two Columns, Left"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:298
+msgid "Two Columns, Right"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:299
+msgid "Three Columns, Left"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:300
+msgid "Three Columns, Right"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:301
+msgid "Three Columns, Center"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:377
+#: library/extensions/theme-layouts.php:485
+msgid "Layout"
+msgstr ""
+
+#: library/extensions/theme-layouts.php:404
+msgid "Layout is a theme-specific structure for the single view of the post."
+msgstr ""
+
+#: library/functions/comments.php:182
+msgid "*"
+msgstr ""
+
+#: library/functions/comments.php:189
+msgid "Website"
+msgstr ""
+
+#: library/functions/comments.php:195
+msgid "Comment"
+msgstr ""
+
+#: library/functions/comments.php:196
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
+msgstr ""
+
+#: library/functions/comments.php:197
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: library/functions/comments.php:197
+msgid "Log out of this account"
+msgstr ""
+
+#: library/functions/comments.php:197
+msgid "Log out &raquo;"
+msgstr ""
+
+#: library/functions/comments.php:202
+msgid "Leave a Reply"
+msgstr ""
+
+#: library/functions/comments.php:203
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: library/functions/comments.php:204
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: library/functions/context.php:423 library/functions/context.php:429
+#: library/functions/context.php:432 library/functions/context.php:438
+#: library/functions/context.php:441
+msgid "Archive for %1$s"
+msgstr ""
+
+#: library/functions/context.php:426
+msgid "Archive for minute %1$s"
+msgstr ""
+
+#: library/functions/context.php:432
+msgid "F jS, Y"
+msgstr ""
+
+#: library/functions/context.php:435
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+#: library/functions/context.php:460
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: library/functions/core-seo.php:93
+msgid "Copyright (c) %1$s"
+msgstr ""
+
+#: library/functions/core-seo.php:112 library/functions/shortcodes.php:218
+#: library/functions/shortcodes.php:373
+msgid "l, F jS, Y, g:i a"
+msgstr ""
+
+#: library/functions/customize.php:63 library/functions/customize.php:88
+msgid "Footer"
+msgstr ""
+
+#: library/functions/deprecated.php:572
+msgid ""
+"<code>%1$s</code> &mdash; This function has been removed or replaced by "
+"another function."
+msgstr ""
+
+#: library/functions/settings.php:76 library/functions/settings.php:80
+msgid "Copyright &#169; [the-year] [site-link]."
+msgstr ""
+
+#: library/functions/settings.php:76
+msgid "Powered by [wp-link], [theme-link], and [child-link]."
+msgstr ""
+
+#: library/functions/settings.php:80
+msgid "Powered by [wp-link] and [theme-link]."
+msgstr ""
+
+#: library/functions/shortcodes.php:93
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr ""
+
+#: library/functions/shortcodes.php:93
+msgid "WordPress"
+msgstr ""
+
+#: library/functions/shortcodes.php:106
+msgid "%s WordPress Theme"
+msgstr ""
+
+#: library/functions/shortcodes.php:134
+msgid "Log out"
+msgstr ""
+
+#: library/functions/shortcodes.php:136
+msgid "Log in"
+msgstr ""
+
+#: library/functions/shortcodes.php:151
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr ""
+
+#: library/functions/shortcodes.php:204 library/functions/shortcodes.php:443
+msgid "Edit %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+msgid "Leave a response"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+msgid "%1$s Response"
+msgstr ""
+
+#: library/functions/shortcodes.php:234
+msgid "%1$s Responses"
+msgstr ""
+
+#: library/functions/shortcodes.php:241 library/functions/shortcodes.php:243
+#: library/functions/shortcodes.php:245
+msgid "Comment on %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:305
+msgid "(Untitled)"
+msgstr ""
+
+#: library/functions/shortcodes.php:321
+msgid "Shortlink"
+msgstr ""
+
+#: library/functions/shortcodes.php:345 library/functions/shortcodes.php:422
+msgid "Permalink"
+msgstr ""
+
+#: library/functions/shortcodes.php:373
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:422
+msgid "Permalink to comment %1$s"
+msgstr ""
+
+#: library/functions/shortcodes.php:462
+msgid "Reply"
+msgstr ""
+
+#: library/functions/shortcodes.php:463
+msgid "Log in to reply."
+msgstr ""
+
+#: library/functions/sidebars.php:88
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr ""
+
+#: library/functions/sidebars.php:92
+msgid ""
+"The second most important widget area, most often used as a secondary "
+"sidebar."
+msgstr ""
+
+#: library/functions/sidebars.php:96
+msgid "A widget area loaded in the footer of the site."
+msgstr ""
+
+#: library/functions/sidebars.php:100
+msgid "Displayed within the site's header area."
+msgstr ""
+
+#: library/functions/sidebars.php:104
+msgid "Loaded before the page's main content area."
+msgstr ""
+
+#: library/functions/sidebars.php:108
+msgid "Loaded after the page's main content area."
+msgstr ""
+
+#: library/functions/sidebars.php:112
+msgid ""
+"Loaded on singular post (page, attachment, etc.) views before the comments "
+"area."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:93
+#: library/updater/theme-updater-admin.php:94
+#: library/updater/theme-updater-admin.php:123
+msgid "Theme License"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:113
+msgid "Enter your theme license key."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:133
+msgid "License Key"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:146
+msgid "License Action"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:152
+msgid "Deactivate License"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:154
+msgid "Activate License"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:322
+#: library/updater/theme-updater-admin.php:369
+msgid "License status is unknown."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:330
+msgid "Renew?"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:339
+msgid "unlimited"
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:343
+msgid "License key is active."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:345
+msgid "Expires %s."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:348
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:352
+msgid "License key expired %s."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:354
+msgid "License key has expired."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:360
+msgid "License keys do not match."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:362
+msgid "License is inactive."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:364
+msgid "License key is disabled."
+msgstr ""
+
+#: library/updater/theme-updater-admin.php:367
+msgid "Site is inactive."
+msgstr ""
+
+#: library/updater/theme-updater-class.php:61
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: library/updater/theme-updater-class.php:66
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a "
+"href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: loop-entry-author.php:22
+msgid "About [entry-author]"
+msgstr ""
+
+#: loop-nav.php:21
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+#: loop-nav.php:27 loop-nav.php:31 loop-nav.php:33
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: loop-nav.php:28 loop-nav.php:31
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-nav.php:33
+msgid "Next &rarr;"
+msgstr ""
+
+#: menu-portfolio-filter.php:36
+msgid "All"
+msgstr ""
+
+#: menu-primary.php:23
+msgid "Toggle Menu"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:95
+msgid "Portfolio"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:96
+msgid "Project"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:97
+msgid "All Projects"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:98
+#: plugins/dp-portfolio/dp-portfolio.php:99
+msgid "Add New Project"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:101
+msgid "Edit Project"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:102
+msgid "New Project"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:103
+msgid "View Project"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:104
+msgid "Search Portfolio"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:105
+msgid "No projects found"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:106
+msgid "No projects found in Trash"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:136
+msgid "Search Roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:137
+msgid "All Roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:138
+msgid "Edit Role"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:139
+msgid "Update Role"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:140
+msgid "Add New Role"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:141
+msgid "New Role Name"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:144
+msgid ""
+"Separate roles with commas. Roles are used to describe the type of services "
+"involved in the project. For examples: wireframing, designing, and coding."
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:145
+msgid "Add or remove roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:146
+msgid "Choose from the most used roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:147
+msgid "Portfolio Roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:170
+msgid "Search Types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:171
+msgid "All Types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:172
+msgid "Edit Type"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:173
+msgid "Update Type"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:174
+msgid "Add New Type"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:175
+msgid "New Type Name"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:178
+msgid ""
+"Separate types with commas. Types are used to describe the project type. "
+"For examples: residential, commercial, and government."
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:179
+msgid "Add or remove types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:180
+msgid "Choose from the most used types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:181
+msgid "Portfolio Types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:214
+msgid "Project Info"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:239
+msgid "Client"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:254
+msgid "The URL this project should link to."
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:262
+msgid "Testimonial"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:89
+msgid "Team"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:90
+msgid "Team Member"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:91
+msgid "All Team Members"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:92 plugins/dp-team/dp-team.php:93
+msgid "Add New Member"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:95
+msgid "Edit Member"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:96
+msgid "New Member"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:97
+msgid "No members found"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:98
+msgid "No members found in Trash"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:99
+msgid "Search Team"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:100
+msgid "View Member"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:131
+msgid "Team Member&#39;s Details"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:156
+msgid "Member&#39;s Position"
+msgstr ""
+
+#: plugins/dp-team/dp-team.php:161
+msgid "The job title, position, or responsibility of the member."
+msgstr ""
+
+#: post.php:44 singular.php:44
+msgid "Published by [entry-author] on [entry-published] [entry-edit-link]"
+msgstr ""
+
+#: post.php:51 singular.php:51
+msgid ""
+"Filed under: [entry-terms taxonomy=\"category\"] [entry-terms "
+"taxonomy=\"post_tag\" before=\"and Tagged: \"]"
+msgstr ""
+
+#: project.php:61
+msgid "Client:"
+msgstr ""
+
+#: project.php:63
+msgid "Launch Project"
+msgstr ""
+
+#: project.php:71
+msgid "Testimonial:"
+msgstr ""
+
+#: project.php:81
+msgid "Services Provided:"
+msgstr ""
+
+#: searchform.php:19
+msgid "Search this site..."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Murmur"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://devpress.com/themes/murmur/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A blogging theme with features to showcase portfolio projects and to "
+"present your team or staff members."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tung Do"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://devpress.com/"
+msgstr ""
+
+#: functions.php:369
+msgctxt "sidebar"
+msgid "Subsidiary 4 Columns"
+msgstr ""
+
+#: functions.php:379
+msgctxt "sidebar"
+msgid "Subsidiary 5 Columns"
+msgstr ""
+
+#: library/functions/sidebars.php:87
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: library/functions/sidebars.php:91
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr ""
+
+#: library/functions/sidebars.php:95
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+#: library/functions/sidebars.php:99
+msgctxt "sidebar"
+msgid "Header"
+msgstr ""
+
+#: library/functions/sidebars.php:103
+msgctxt "sidebar"
+msgid "Before Content"
+msgstr ""
+
+#: library/functions/sidebars.php:107
+msgctxt "sidebar"
+msgid "After Content"
+msgstr ""
+
+#: library/functions/sidebars.php:111
+msgctxt "sidebar"
+msgid "After Singular"
+msgstr ""
+
+#: library/functions/menus.php:38
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#: library/functions/menus.php:42
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr ""
+
+#: library/functions/menus.php:46
+msgctxt "nav menu location"
+msgid "Subsidiary"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:134
+msgctxt "plural"
+msgid "Portfolio Roles"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:168
+msgctxt "plural"
+msgid "Portfolio Types"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:135
+msgctxt "singular"
+msgid "Role"
+msgstr ""
+
+#: plugins/dp-portfolio/dp-portfolio.php:169
+msgctxt "singular"
+msgid "Type"
+msgstr ""
