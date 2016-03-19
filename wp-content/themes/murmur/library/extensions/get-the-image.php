@@ -2,17 +2,17 @@
 /**
  * Get the Image - An advanced post image script for WordPress.
  *
- * Get the Image was created to be a highly-intuitive image script that displays post-specific images (an 
- * image-based representation of a post).  The script handles old-style post images via custom fields for 
- * backwards compatibility.  It also supports WordPress' built-in featured image functionality.  On top of 
- * those things, it can automatically set attachment images as the post image or scan the post content for 
+ * Get the Image was created to be a highly-intuitive image script that displays post-specific images (an
+ * image-based representation of a post).  The script handles old-style post images via custom fields for
+ * backwards compatibility.  It also supports WordPress' built-in featured image functionality.  On top of
+ * those things, it can automatically set attachment images as the post image or scan the post content for
  * the first image element used.  It can also fall back to a given default image.
  *
- * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
- * General Public License as published by the Free Software Foundation; either version 2 of the License, 
+ * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
+ * General Public License as published by the Free Software Foundation; either version 2 of the License,
  * or (at your option) any later version.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without 
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
  * @package GetTheImage
@@ -37,7 +37,7 @@ add_action( 'added_post_meta', 'get_the_image_delete_cache_by_meta', 10, 2 );
  * customize how the script outputs the image.
  *
  * The image check order is important to note here.  If an image is found by any specific check, the script
- * will no longer look for images.  The check order is 'meta_key', 'the_post_thumbnail', 'attachment', 
+ * will no longer look for images.  The check order is 'meta_key', 'the_post_thumbnail', 'attachment',
  * 'image_scan', 'callback', and 'default_image'.
  *
  * @since 0.1.0
@@ -197,7 +197,7 @@ function get_the_image( $args = array() ) {
 /* Internal Functions */
 
 /**
- * Calls images by custom field key.  Script loops through multiple custom field keys.  If that particular key 
+ * Calls images by custom field key.  Script loops through multiple custom field keys.  If that particular key
  * is found, $image is set and the loop breaks.  If an image is found, it is returned.
  *
  * @since 0.7.0
@@ -230,8 +230,8 @@ function get_the_image_by_meta_key( $args = array() ) {
 }
 
 /**
- * Checks for images using a custom version of the WordPress 2.9+ get_the_post_thumbnail() function.  
- * If an image is found, return it and the $post_thumbnail_id.  The WordPress function's other filters are 
+ * Checks for images using a custom version of the WordPress 2.9+ get_the_post_thumbnail() function.
+ * If an image is found, return it and the $post_thumbnail_id.  The WordPress function's other filters are
  * later added in the display_the_image() function.
  *
  * @since 0.7.0
@@ -262,7 +262,7 @@ function get_the_image_by_post_thumbnail( $args = array() ) {
 }
 
 /**
- * Check for attachment images.  Uses get_children() to check if the post has images attached.  If image 
+ * Check for attachment images.  Uses get_children() to check if the post has images attached.  If image
  * attachments are found, loop through each.  The loop only breaks once $order_of_image is reached.
  *
  * @since 0.7.0
@@ -337,7 +337,7 @@ function get_the_image_by_attachment( $args = array() ) {
 }
 
 /**
- * Scans the post for images within the content.  Not called by default with get_the_image().  Shouldn't use 
+ * Scans the post for images within the content.  Not called by default with get_the_image().  Shouldn't use
  * if using large images within posts, better to use the other options.
  *
  * @since 0.7.0
@@ -358,7 +358,7 @@ function get_the_image_by_scan( $args = array() ) {
 }
 
 /**
- * Used for setting a default image.  The function simply returns the image URL it was given in an array.  
+ * Used for setting a default image.  The function simply returns the image URL it was given in an array.
  * Not used with get_the_image() by default.
  *
  * @since 0.7.0
@@ -371,7 +371,7 @@ function get_the_image_by_default( $args = array() ) {
 }
 
 /**
- * Formats an image with appropriate alt text and class.  Adds a link to the post if argument is set.  Should 
+ * Formats an image with appropriate alt text and class.  Adds a link to the post if argument is set.  Should
  * only be called if there is an image to display, but will handle it if not.
  *
  * @since 0.7.0
@@ -424,8 +424,8 @@ function get_the_image_format( $args = array(), $image = false ) {
 }
 
 /**
- * Saves the image URL as the value of the meta key provided.  This allows users to set a custom meta key 
- * for their image.  By doing this, users can trim off database queries when grabbing attachments or get rid 
+ * Saves the image URL as the value of the meta key provided.  This allows users to set a custom meta key
+ * for their image.  By doing this, users can trim off database queries when grabbing attachments or get rid
  * of expensive scans of the content when using the image scan feature.
  *
  * @since 0.6.0
@@ -464,7 +464,7 @@ function get_the_image_delete_cache_by_post( $post_id ) {
 }
 
 /**
- * Deletes the image cache for a specific post when the 'added_post_meta', 'deleted_post_meta', 
+ * Deletes the image cache for a specific post when the 'added_post_meta', 'deleted_post_meta',
  * or 'updated_post_meta' hooks are called.
  *
  * @since 0.7.0

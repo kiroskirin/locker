@@ -16,7 +16,7 @@
 get_header(); // Loads the header.php template. ?>
 
 	<?php do_atomic( 'before_content' ); // murmur_before_content ?>
-	
+
 	<?php if( hybrid_get_setting( 'murmur_site_description_extended' ) ) { ?>
 		<div id="site-description-extended">
 			<?php echo hybrid_get_setting( 'murmur_site_description_extended' ); ?>
@@ -40,18 +40,18 @@ get_header(); // Loads the header.php template. ?>
 						<?php do_atomic( 'open_entry' ); // murmur_open_entry ?>
 
 						<?php echo apply_atomic_shortcode( 'entry_title', '[entry-title]' ); ?>
-						
-						<?php echo apply_atomic_shortcode( 'byline', '<div class="byline">' . __('Published by [entry-author] on [entry-published] [entry-edit-link]', 'murmur' ) . '</div>'); ?>
-						
+
+						<!-- <?php echo apply_atomic_shortcode( 'byline', '<div class="byline">' . __('Published by [entry-author] on [entry-published] [entry-edit-link]', 'murmur' ) . '</div>'); ?> -->
+
 						<div class="entry-content">
-							
+
 							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'murmur' ) ); ?>
 							<?php wp_link_pages( array( 'before' => '<p class="page-links">' . __( 'Pages:', 'murmur' ), 'after' => '</p>' ) ); ?>
-							
-							<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( 'Filed under: [entry-terms taxonomy="category"] [entry-terms taxonomy="post_tag" before="and Tagged: "]', 'murmur' ) . '</div>' ); ?>
+
+							<!-- <?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( 'Under: [entry-terms taxonomy="category"] [entry-terms taxonomy="post_tag" before="and Tagged: "]', 'murmur' ) . '</div>' ); ?> -->
 
 						</div><!-- .entry-content -->
-						
+
 						<?php $author_bio = get_the_author_meta( 'description' );
 							if( !empty( $author_bio ) ) {
 								get_template_part( 'loop', 'entry-author' ); // Loads the loop-entry-author.php template.
@@ -64,7 +64,7 @@ get_header(); // Loads the header.php template. ?>
 
 					<?php get_sidebar( 'after-singular' ); // Load sidebar-after-singular.php template ?>
 
-					<?php comments_template( '/comments.php', true ); // Loads the comments.php template. ?>
+					<?php //comments_template( '/comments.php', true ); // Loads the comments.php template. ?>
 
 				<?php endwhile; ?>
 

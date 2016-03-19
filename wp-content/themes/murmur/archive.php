@@ -3,7 +3,7 @@
 /**
  * Archive Template
  *
- * The archive template is the default template used for archives pages without a more specific template. 
+ * The archive template is the default template used for archives pages without a more specific template.
  *
  * @package Murmur
  * @subpackage Template
@@ -17,7 +17,7 @@
 get_header(); // Loads the header.php template. ?>
 
 	<?php do_atomic( 'before_content' ); // murmur_before_content ?>
-	
+
 	<?php if( hybrid_get_setting( 'murmur_site_description_extended' ) ) { ?>
 		<div id="site-description-extended">
 			<?php echo hybrid_get_setting( 'murmur_site_description_extended' ); ?>
@@ -29,19 +29,19 @@ get_header(); // Loads the header.php template. ?>
 		<?php do_atomic( 'open_content' ); // murmur_open_content ?>
 
 		<div class="hfeed">
-		
+
 			<ul class="loop-entries">
 
 			<?php if ( have_posts() ) : ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
-				
+
 				<?php do_atomic( 'before_entry' ); // murmur_before_entry ?>
-				
+
 				<li id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?>">
 
 					<?php do_atomic( 'open_entry' ); // murmur_open_entry ?>
-							
+
 						<?php if ( current_theme_supports( 'get-the-image' ) ) : ?>
 							<?php $image = get_the_image( array( 'echo' => false ) );
 								if ( $image ) : ?>
@@ -58,25 +58,25 @@ get_header(); // Loads the header.php template. ?>
 					<?php do_atomic( 'close_entry' ); // murmur_close_entry ?>
 
 				</li><!-- .hentry -->
-				
+
 				<?php do_atomic( 'after_entry' ); // murmur_after_entry ?>
-				
+
 			<?php endwhile; ?>
 
 			<?php else : ?>
-				
+
 				<li class="<?php hybrid_entry_class(); ?>">
 
 					<h2 class="entry-title"><?php _e( 'No Entries', 'murmur' ); ?></h2>
-					
+
 					<div class="entry-summary">
 						<p><?php _e( 'Apologies, but no entries were found.', 'murmur' ); ?></p>
 					</div><!-- .entry-summary -->
-					
+
 				</li><!-- .hentry .error -->
 
 			<?php endif; ?>
-			
+
 			</ul><!-- .loop-entries -->
 
 		</div><!-- .hfeed -->
