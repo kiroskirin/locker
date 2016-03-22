@@ -1,7 +1,7 @@
 <?php
 /*
  * Theme Settings
- * 
+ *
  * @package Murmur
  * @subpackage Settings
  * @since 0.1.0
@@ -13,9 +13,9 @@
 add_action( 'admin_menu', 'murmur_theme_admin_setup' );
 
 function murmur_theme_admin_setup() {
-    
+
 	global $theme_settings_page;
-	
+
 	/* Get the theme settings page name */
 	$theme_settings_page = 'appearance_page_theme-settings';
 
@@ -27,7 +27,7 @@ function murmur_theme_admin_setup() {
 
 	/* Add a filter to validate/sanitize your settings. */
 	add_filter( "sanitize_option_{$prefix}_theme_settings", 'murmur_theme_validate_settings' );
-	
+
 	/* Enqueue styles */
 	add_action( 'admin_enqueue_scripts', 'murmur_admin_scripts' );
 
@@ -45,7 +45,7 @@ function murmur_theme_settings_meta_boxes() {
 		'normal',					// Which meta box holder?
 		'high'					// High/low within the meta box holder
 	);
-	
+
 	/* Add a custom meta box. */
 	add_meta_box(
 		'murmur-theme-meta-box-2',			// Name/ID
@@ -63,7 +63,7 @@ function murmur_theme_settings_meta_boxes() {
 function murmur_theme_meta_box() { ?>
 
 	<table class="form-table">
-	
+
 		<!-- Logo upload -->
 
 		<tr>
@@ -74,14 +74,14 @@ function murmur_theme_meta_box() { ?>
 				<input type="text" id="<?php echo hybrid_settings_field_id( 'murmur_logo_url' ); ?>" name="<?php echo hybrid_settings_field_name( 'murmur_logo_url' ); ?>" value="<?php echo esc_attr( hybrid_get_setting( 'murmur_logo_url' ) ); ?>" />
 				<input id="murmur_logo_upload_button" class="button" type="button" value="Upload" />
 				<p class="description"><?php _e( 'Upload image for logo. Once uploaded, click the Insert Into Post button. If that does not work, copy the address of the image and paste it in the input field above. Next, click on Save Settings button at the bottom of this page. The image will automatically display here after settings are saved.', 'murmur' ); ?></p>
-				
+
 				<?php /* Display uploaded image */
 				if ( hybrid_get_setting( 'murmur_logo_url' ) ) { ?>
                     <p><img src="<?php echo hybrid_get_setting( 'murmur_logo_url' ); ?>" alt=""/></p>
 				<?php } ?>
 			</td>
 		</tr>
-		
+
 		<!-- Show Site Description -->
 		<tr>
 			<th><label for="<?php echo hybrid_settings_field_id( 'murmur_site_description_toggle' ); ?>"><?php _e( 'Site Description Toggle:', 'murmur' ); ?></label></th>
@@ -90,7 +90,7 @@ function murmur_theme_meta_box() { ?>
 				<label for="<?php echo esc_attr( hybrid_settings_field_id( 'murmur_site_description_toggle' ) ); ?>"><?php _e( 'Check this box to hide site description', 'murmur' ); ?></label>
 			</td>
 		</tr>
-		
+
 		<!-- Extended Site Description -->
 		<tr>
 			<th>
@@ -101,7 +101,7 @@ function murmur_theme_meta_box() { ?>
 				<p class="description"><?php _e( 'Write a sentence or two about your company or services. This extended site description will be displayed directly below the header, before the main content.', 'murmur' ); ?></p>
 			</td>
 		</tr>
-		
+
 		<!-- End custom form elements. -->
 	</table><!-- .form-table -->
 
@@ -117,7 +117,7 @@ function murmur_theme_meta_box_2() { ?>
 	</p>
 
 	<table class="form-table">
-	
+
 		<!-- Number of Slides -->
 		<tr>
 			<th>
@@ -130,7 +130,7 @@ function murmur_theme_meta_box_2() { ?>
 		</tr>
 
 	</table><!-- .form-table -->
-	
+
 	<?php
 
 	wp_editor(
@@ -141,13 +141,13 @@ function murmur_theme_meta_box_2() { ?>
 			'textarea_name' => hybrid_settings_field_name( 'murmur_feature_one' )
 		)
 	); ?>
-	
+
 	<p>
 		<span class="description">
 			<?php _e( 'After the slider of Portfolio Showcase template, enter information for the first featured area, typically used to introduce one of your available services.', 'murmur' ); ?>
 		</span>
 	</p>
-	
+
 	<?php
 
 	wp_editor(
@@ -158,13 +158,13 @@ function murmur_theme_meta_box_2() { ?>
 			'textarea_name' => hybrid_settings_field_name( 'murmur_feature_two' )
 		)
 	); ?>
-	
+
 	<p>
 		<span class="description">
 			<?php _e( 'Enter information for the second featured area.', 'murmur' ); ?>
 		</span>
 	</p>
-	
+
 	<?php
 
 	wp_editor(
@@ -175,7 +175,7 @@ function murmur_theme_meta_box_2() { ?>
 			'textarea_name' => hybrid_settings_field_name( 'murmur_feature_three' )
 		)
 	); ?>
-	
+
 	<p>
 		<span class="description">
 			<?php _e( 'Enter information for the third featured area.', 'murmur' ); ?>
@@ -190,18 +190,19 @@ function murmur_theme_validate_settings( $settings ) {
 
 	$settings['murmur_logo_url'] = esc_url_raw( $settings['murmur_logo_url'] );
 	$settings['murmur_site_description_toggle'] = ( isset( $settings['murmur_site_description_toggle'] ) ? 1 : 0 );
-	$settings['murmur_site_description_extended'] = wp_filter_nohtml_kses( $settings['murmur_site_description_extended'] );
+	// $settings['murmur_site_description_extended'] = wp_filter_nohtml_kses( $settings['murmur_site_description_extended'] );
+	$settings['murmur_site_description_extended'] =  $settings['murmur_site_description_extended'] ;
 	$settings['murmur_slides_number'] = absint( $settings['murmur_slides_number'] );
-	
+
 	if ( !current_user_can( 'unfiltered_html' ) ) {
-	
+
 		if ( isset( $settings['murmur_feature_one'] ) )
 			$settings['murmur_feature_one'] = stripslashes( wp_filter_post_kses( addslashes( $settings['murmur_feature_one'] ) ) );
 		if ( isset( $settings['murmur_feature_two'] ) )
 			$settings['murmur_feature_two'] = stripslashes( wp_filter_post_kses( addslashes( $settings['murmur_feature_two'] ) ) );
 		if ( isset( $settings['murmur_feature_three'] ) )
 			$settings['murmur_feature_three'] = stripslashes( wp_filter_post_kses( addslashes( $settings['murmur_feature_three'] ) ) );
-			
+
 	}
 
     /* Return the array of theme settings. */
@@ -210,9 +211,9 @@ function murmur_theme_validate_settings( $settings ) {
 
 /* Enqueue scripts (and related stylesheets) */
 function murmur_admin_scripts( $hook_suffix ) {
-    
+
     global $theme_settings_page;
-	
+
     if ( $theme_settings_page == $hook_suffix ) {
 
 	    wp_enqueue_script( 'murmur-admin', get_template_directory_uri() . '/js/murmur-admin.js', array( 'jquery', 'media-upload' ), '20120831', false );

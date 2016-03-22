@@ -33,8 +33,8 @@ get_header(); // Loads the header.php template. ?>
 
 			<?php
 				$loop = new WP_Query( array(
-					'orderby'			 => 'date',
-					'order'        => 'ASC',
+					'orderby'			 => 'menu_order',
+					// 'order'        => 'ASC',
 					// 'posts_per_page' => hybrid_get_setting( 'murmur_slides_number' ),
 					'post_status'  => 'publish',
 					'post_type'    => 'post',

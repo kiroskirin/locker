@@ -15,7 +15,7 @@
 
 /* Custom */
 body .sliders.flexslider .slides a{
-	cursor: default !important;
+	/*cursor: default !important;*/
 }
 
 html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
@@ -54,13 +54,14 @@ body {
 }
 
 a {
-	color:#000;
+	color:#1c75b7;
 	cursor:pointer;
 	text-decoration:none;
 }
 
 a:hover {
-	text-decoration:underline;
+	text-decoration:none;
+	color:#c98256;
 }
 
 a img {
@@ -750,7 +751,7 @@ blockquote.alignleft,blockquote.alignright {
 
 nav#menu-primary {
 	float:right;
-	padding-top:11px;
+	padding-top:50px;
 }
 
 #menu-primary-title {
@@ -781,9 +782,10 @@ nav#menu-primary .menu li li {
 
 nav#menu-primary .menu li a {
 	font-size:13px;
-	font-weight:700;
+	/*font-weight:700;*/
 	line-height:18px;
-	padding:32px 0;
+	/*padding:32px 0;*/
+	padding:20px 10px 10px;
 }
 
 nav#menu-primary .menu li a.with-ul {
@@ -802,9 +804,12 @@ nav#menu-primary .menu li a span.sub-indicator {
 }
 
 nav#menu-primary .menu li.current-menu-item a {
-	background-image:url(images/bg_current-menu-item.png);
+	/*background-image:url(images/bg_current-menu-item.png);*/
 	background-position:left bottom;
 	background-repeat:repeat-x;
+	border-bottom: 2px solid #c98256;
+	color: #c98256;
+	font-weight: 700;
 }
 
 nav#menu-primary .menu li.current-menu-item li a {
@@ -855,7 +860,8 @@ nav#menu-primary .menu li li a span.sub-indicator {
 }
 
 #main .wrap {
-	padding:24px 0 0;
+	/*padding:24px 0 0;*/
+	padding:5px 0 0;
 }
 
 .layout-2c-r #content {
@@ -885,7 +891,7 @@ nav#menu-primary .menu li li a span.sub-indicator {
 	font-size:16px;
 	font-style:italic;
 	line-height:26px;
-	padding:24px 160px 29px;
+	/*padding:24px 160px 29px;*/
 	text-align:center;
 	width:100%;
 }
@@ -934,12 +940,14 @@ nav#menu-primary .menu li li a span.sub-indicator {
 
 .error-404 .hfeed,.singular .hfeed {
 	background:#fff;
-	border-top:6px solid #8f8f8f;
+	/*border-top:6px solid #8f8f8f;*/
+	border-top:6px solid #c98256;
 	box-shadow:0 0 20px #ebebeb;
 	-moz-box-shadow:0 0 20px #ebebeb;
 	-o-box-shadow:0 0 20px #ebebeb;
 	-webkit-box-shadow:0 0 20px #ebebeb;
 	margin:36px 40px;
+	/*margin:5px 0px;*/
 	width:640px;
 }
 
@@ -1517,7 +1525,7 @@ ul.loop-entries,ul.loop-projects,ul.loop-team {
 
 ul.loop-entries {
 	float:left;
-	margin:18px 0;
+	margin:5px 0;
 	padding:0 20px;
 	position:relative;
 	width:100%;
@@ -1538,9 +1546,10 @@ ul.loop-entries li {
 	-webkit-box-shadow:0 0 20px #f1f1f1;
 	clear:none;
 	float:left;
-	margin:18px 20px;
+	/*margin:18px 20px;*/
+	margin:5px 20px;
 	/*min-height:436px;*/
-	min-height:275px;
+	min-height:280px;
 	padding:0;
 	width:280px;
 }
@@ -1935,7 +1944,8 @@ ul.loop-team li .entry-summary p {
 
 /* View css/mummur-slider-portfolio-showcase.css for other CSS used in this area */
 .page-template-portfolio-showcase .hfeed {
-	margin:36px 0 0;
+	/*margin:36px 0 0;*/
+	margin:5px 0 0;
 }
 
 #dpps-features {
@@ -1974,7 +1984,8 @@ ul.loop-team li .entry-summary p {
  * Footer
  ************************************************/
 #footer {
-	background:#fff;
+	color:#fff;
+	background:#1c75b7;
 	box-shadow:0 0 20px #f2f2f2;
 	-moz-box-shadow:0 0 20px #f2f2f2;
 	-webkit-box-shadow:0 0 20px #f2f2f2;
@@ -2072,7 +2083,8 @@ nav#menu-subsidiary .menu ul ul,nav#menu-subsidiary .menu li a span.sub-indicato
 	}
 
 	nav#menu-primary .menu li a {
-		padding:0 0 32px;
+		/*padding:0 0 32px;*/
+		padding:20px 10px 10px;
 	}
 
 	nav#menu-primary .menu li a.with-ul {

@@ -306,7 +306,7 @@ function murmur_footer_scripts() {
 				$j( '.flexslider' ).flexslider();
 
 				// custom
-				$j( '.slide a').prop("href","#");
+				// $j( '.slide a').prop("href","#");
 			});
 		</script>
 
